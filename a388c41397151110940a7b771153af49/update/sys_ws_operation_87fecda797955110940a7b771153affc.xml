@@ -8,27 +8,38 @@
         <http_method>POST</http_method>
         <name>Workflow Attribute Change</name>
         <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
-	// Get the updated workflow values
-	var icMsg = new sn_ws.RESTMessageV2("Ironclad", "get workflow");
-	icMsg.setStringParameter("ironclad_env", "demo.ironcladapp.com");
-	icMsg.setStringParameter("ironclad_api_key", "GQATh2RHPjV35d1RbG-jL0Rx1rIeLav0pJ2rUUqrFRCE");
-	
-	gs.info("Ironclad getting workflow " + request.body.data.payload.workflowID);
-	icMsg.setStringParameter("workflow_id", request.body.data.payload.workflowID);
-	gs.info("Ironclad calling endpoint: " + icMsg.getEndpoint());
-	var wfResp = icMsg.execute();
-	var wfData = JSON.parse(wfResp.getBody());
-	
-	// Get the target Legal Agreement Request
-    var agreementReqId = wfData.attributes.sNOWAgreementRecordId;
-	gs.info("Ironclad attribute change for agreement " + agreementReqId);
-	var agreementRec = new GlideRecord("x_749125_legal_i_0_legal_agreement_request");
-	agreementRec.get(agreementReqId);
+	// Get Ironclad env and API key from application properties
+	var icEnv = gs.getProperty("x_749125_legal_i_0.ironclad_environment");
+	var icKey = gs.getProperty("x_749125_legal_i_0.ironclad_api_key");
+		
+	// Get template IDs - define other workflow types if needed and use their template IDs here.
+	var icMSATemplate = gs.getProperty("x_749125_legal_i_0.ironclad_msa_template");
+	var icNDATemplate = gs.getProperty("x_749125_legal_i_0.ironclad_nda_template");
+		
+	// See if an MSA was updated - no attribute updates are needed from NDAs
+	if (request.body.data.payload.templateID === icMSATemplate) {
+		// Get the updated workflow values
+		var icMsg = new sn_ws.RESTMessageV2("Ironclad", "get workflow");
+		icMsg.setStringParameter("ironclad_env", icEnv);
+		icMsg.setStringParameter("ironclad_api_key", icKey);
 
-	// Update the Legal Agreement Request
-	gs.info("Ironclad setting agreement value to " + wfData.attributes.totalContractValue.amount);
-	agreementRec.setValue("agreement_value", wfData.attributes.totalContractValue.amount);
-	agreementRec.update("Ironclad update");
+		gs.info("Ironclad getting workflow " + request.body.data.payload.workflowID);
+		icMsg.setStringParameter("workflow_id", request.body.data.payload.workflowID);
+		gs.info("Ironclad calling endpoint: " + icMsg.getEndpoint());
+		var wfResp = icMsg.execute();
+		var wfData = JSON.parse(wfResp.getBody());
+
+		// Get the target Legal Agreement Request
+		var agreementReqId = wfData.attributes.sNOWAgreementRecordId;
+		gs.info("Ironclad attribute change for agreement " + agreementReqId);
+		var agreementRec = new GlideRecord("x_749125_legal_i_0_legal_agreement_request");
+		agreementRec.get(agreementReqId);
+
+		// Update the Legal Agreement Request
+		gs.info("Ironclad setting agreement value to " + wfData.attributes.totalContractValue.amount);
+		agreementRec.setValue("agreement_value", wfData.attributes.totalContractValue.amount);
+		agreementRec.update("Ironclad update");
+	}
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_749125_legal_i_0/ironclad_webhook/attribute_change</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
@@ -43,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-19 22:01:02</sys_created_on>
         <sys_id>87fecda797955110940a7b771153affc</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Workflow Attribute Change</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name>sys_ws_operation_87fecda797955110940a7b771153affc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-20 05:18:13</sys_updated_on>
+        <sys_updated_on>2022-08-21 21:06:04</sys_updated_on>
         <web_service_definition display_value="Ironclad Webhook">019e49a797955110940a7b771153aff9</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

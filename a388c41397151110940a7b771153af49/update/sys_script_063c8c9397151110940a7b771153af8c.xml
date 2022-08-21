@@ -103,6 +103,7 @@
 		var wfData = JSON.parse(response.getBody());
 		current.setValue("ironclad_workflow_url", "https://" + icEnv + "/workflow/" + wfData.id);
 		current.setValue("ironclad_workflow_status", wfData.step);
+		current.update("Ironclad launch details");
 	} 
 	catch (err) {
 		gs.debug('Ironclad launch error: ' + err);
@@ -115,7 +116,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>063c8c9397151110940a7b771153af8c</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Ironclad: Launch Agreement Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
@@ -123,7 +124,7 @@
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name>sys_script_063c8c9397151110940a7b771153af8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-21 20:41:53</sys_updated_on>
+        <sys_updated_on>2022-08-21 20:52:24</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
