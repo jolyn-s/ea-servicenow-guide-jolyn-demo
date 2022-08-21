@@ -30,12 +30,26 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	// Business rule used to launch workflows when Agreement Request records are created.
 	gs.info('launching Ironclad workflow');
-	var NDA_TEMPLATE = "62ff0c6ca9098e82a1d3af95";
-	var MSA_TEMPLATE = "62ff0c6ca9098e82a1d3af95";
 	try {
+		// Get Ironclad env and API key from application properties
+		var icEnv = gs.getProperty("x_749125_legal_i_0.ironclad_environment");
+		var icKey = gs.getProperty("x_749125_legal_i_0.ironclad_api_key");
+		
+		// Get template IDs - define other workflow types if needed and use their template IDs here.
+		var icMSATemplate = gs.getProperty("x_749125_legal_i_0.ironclad_msa_template");
+		var icNDATemplate = gs.getProperty("x_749125_legal_i_0.ironclad_nda_template");
+		
+		// Get email of workflow creator.  If accounts in ServiceNow are synced/aligned to 
+		// Ironclad account email addresses, you can use a user's profile as the creator (e.g., the 
+		// email of the user that created the agreement request, or a designated workflow owner per
+		// business unit, etc.) 
+		var creatorEmail = gs.getProperty("x_749125_legal_i_0.ironclad_workflow_creator");
+		
+		// Create the request
 		var request = new sn_ws.RESTMessageV2("Ironclad", "launch workflow");
-		request.setStringParameter("ironclad_env", "demo.ironcladapp.com");
-		request.setStringParameter("ironclad_api_key", "GQATh2RHPjV35d1RbG-jL0Rx1rIeLav0pJ2rUUqrFRCE");
+		request.setStringParameter("ironclad_env", icEnv);
+		request.setStringParameter("ironclad_api_key", icKey);
+		
 		var attributes;
 		var templateID;
 		// Create the base launch body
@@ -53,7 +67,7 @@
 				sNOWAgreementNumber: current.number.toString()
 			},
 			creator: {
-				email: "jim.farley@ironcladhq.com",
+				email: creatorEmail,
 				type: "email"
 			},
 		};
@@ -61,10 +75,10 @@
 		// Set the workflow template id
 		switch (current.agreement_type.toString()) {
 			case "NDA": 
-				reqBody.template = NDA_TEMPLATE;
+				reqBody.template = icNDATemplate;
 				break;
 			case "MSA": 
-				reqBody.template = MSA_TEMPLATE;
+				reqBody.template = icMSATemplate;
 				break;
 			default:
 				break;
@@ -84,9 +98,14 @@
 		for(var i in headers){
 			gs.info("\tIronclad header \"" + headers[i].name + "\": " + headers[i].value);
 		}
+		
+		// Update Legal Request with Ironclad workflow details
+		var wfData = JSON.parse(response.getBody());
+		current.setValue("ironclad_workflow_url", "https://" + icEnv + "/workflow/" + wfData.id);
+		current.setValue("ironclad_workflow_status", wfData.step);
 	} 
 	catch (err) {
-		gs.debug('Get workflows caught this error: ' + err);
+		gs.debug('Ironclad launch error: ' + err);
 	}
 
 })(current, previous);]]></script>
@@ -96,7 +115,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>063c8c9397151110940a7b771153af8c</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Ironclad: Launch Agreement Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
@@ -104,7 +123,7 @@
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name>sys_script_063c8c9397151110940a7b771153af8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-19 21:52:16</sys_updated_on>
+        <sys_updated_on>2022-08-21 20:41:53</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
