@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Legal Agreement Request" max_length="40" name="x_749125_legal_i_0_legal_agreement_request" sizeclass="35" type="collection">
+        <element label="Agreement Date" max_length="40" name="agreement_date" type="glide_date"/>
+        <element choice="3" label="Agreement Type" mandatory="true" max_length="50" name="agreement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Master Service Agreement" value="MSA"/>
+                <element inactive_on_update="false" label="Non-Disclosure Agreement" value="NDA"/>
+            </choice>
+        </element>
+        <element label="Agreement Value" max_length="20" name="agreement_value" type="currency"/>
+        <element label="Counterparty Name" max_length="200" name="counterparty_name" type="string"/>
+        <element label="Counterparty Signer Email" max_length="200" name="counterparty_signer_email" type="string"/>
+        <element label="Counterparty Signer Name" max_length="200" name="counterparty_signer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
