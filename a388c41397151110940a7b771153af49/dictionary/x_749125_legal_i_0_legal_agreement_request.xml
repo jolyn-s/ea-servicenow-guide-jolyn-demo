@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Legal Agreement Request" max_length="40" name="x_749125_legal_i_0_legal_agreement_request" sizeclass="35" type="collection">
+    <element audit="true" db_object_id="84bcbae52f121110443b5fd92799b6f8" label="Legal Agreement Request" max_length="40" name="x_749125_legal_i_0_legal_agreement_request" type="collection">
         <element label="Agreement Date" max_length="40" name="agreement_date" type="glide_date"/>
         <element choice="3" label="Agreement Type" mandatory="true" max_length="50" name="agreement_type" type="choice">
             <choice>
