@@ -16,6 +16,8 @@
 	var icMSATemplate = gs.getProperty("legalAgreements.ironclad_msa_template");
 	var icNDATemplate = gs.getProperty("legalAgreements.ironclad_nda_template");
 		
+	var legalAgreementReqTable = "x_749125_legal_i_0_legal_agreement_request";
+	
 	// See if a relevant workflow was completed
 	var wfTemplateID = request.body.data.payload.templateID;
 	if (wfTemplateID === icMSATemplate ||
@@ -23,7 +25,7 @@
 
 		// Get repository record details (assume first record is the target)
 		var recId = request.body.data.payload.recordIDs[0];
-		icMsg = new sn_ws.RESTMessageV2("Ironclad", "get record");
+		var icMsg = new sn_ws.RESTMessageV2("Ironclad", "get record");
 		icMsg.setStringParameter("ironclad_env", icEnv);
 		icMsg.setStringParameter("ironclad_api_key", icKey);
 		icMsg.setStringParameter("record_id", recId);
@@ -31,12 +33,14 @@
 		gs.info("Retrieving Ironclad record " + recId);
 		var recResp = icMsg.execute();
 		var recData = JSON.parse(recResp.getBody());
-		
+		var fileName = recData.attachments.signedCopy.filename;
+		var contentType = recData.attachments.signedCopy.contentType;	
+
 		// Get the target Legal Agreement Request
 		var recAgreementProp = "sNOWAgreementRecordId_f6eade0e-c9a4-4248-84de-50342857c99a_string";
-		var agreementReqId = recData.properties[recAgreementProp];
+		var agreementReqId = recData.properties[recAgreementProp].value;
 		gs.info("Ironclad workflow completed for agreement request " + agreementReqId);
-		var agreementRec = new GlideRecord("x_749125_legal_i_0_legal_agreement_request");
+		var agreementRec = new GlideRecord(legalAgreementReqTable);
 		agreementRec.get(agreementReqId);
 		
 		gs.info("Retrieving record contract attachment");
@@ -48,20 +52,12 @@
 		// If your workflow involves multiple documents, you may need to adjust 
 		// this to target the required attachment.
 		icMsg.setStringParameter("attachment_key", "signedCopy");
-		
+		// Attach signed contract to agreement request record
+		icMsg.saveResponseBodyAsAttachment(legalAgreementReqTable, agreementReqId, filename);
 		var docResp = icMsg.execute();
 		
-		// Attach completed contract to request record
-		var attachment = new GlideSysAttachment();
-		//set up inputs
-		var fileName = recData.attachments.signedCopy.filename;
-		var contentType = recData.attachments.signedCopy.contentType;	
-		GlideStringUtil.base64Encode(binData);
-
-		var base64Content = GlideStringUtil.base64Encode(docResp.getBody());
-		var agr = attachment.writeBase64(agreementRec, fileName, contentType, base64Content);
-
-		gs.info('Legal agreement attachment sys_id is: ' + agr);
+		var attachSysId = docResp.getResponseAttachmentSysid();
+		gs.info("Record attachment id " + attachSysId + " attached to agreement " + agreementReqId);
 	}
 	else {
 		gs.info("Alternate Ironclad workflow template type completed: " + wfTemplateID);
