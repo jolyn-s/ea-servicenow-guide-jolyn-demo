@@ -42,8 +42,11 @@
 		gs.info("Ironclad workflow completed for agreement request " + agreementReqId);
 		var agreementRec = new GlideRecord(legalAgreementReqTable);
 		agreementRec.get(agreementReqId);
-		
-		gs.info("Retrieving record contract attachment");
+		// Update workflow status on agreement request
+		agreementRec.setValue("ironclad_workflow_status", "Completed");
+		agreementRec.update("Ironclad update on completion");
+
+		gs.info("Retrieving contract attachment from record");
 		icMsg = new sn_ws.RESTMessageV2("Ironclad", "get record attachment");
 		icMsg.setStringParameter("ironclad_env", icEnv);
 		icMsg.setStringParameter("ironclad_api_key", icKey);
@@ -53,7 +56,7 @@
 		// this to target the required attachment.
 		icMsg.setStringParameter("attachment_key", "signedCopy");
 		// Attach signed contract to agreement request record
-		icMsg.saveResponseBodyAsAttachment(legalAgreementReqTable, agreementReqId, filename);
+		icMsg.saveResponseBodyAsAttachment(legalAgreementReqTable, agreementReqId, fileName);
 		var docResp = icMsg.execute();
 		
 		var attachSysId = docResp.getResponseAttachmentSysid();
