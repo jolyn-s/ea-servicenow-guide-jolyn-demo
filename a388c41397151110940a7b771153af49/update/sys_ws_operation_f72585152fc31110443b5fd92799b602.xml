@@ -6,8 +6,10 @@
         <default_operation_uri/>
         <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
         <http_method>POST</http_method>
-        <name>Workflow Attribute Change</name>
+        <name>Workflow Cancelled</name>
         <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	var wfID = request.body.data.payload.workflowID;
+	gs.info("Ironclad workflow cancelled event received for workflow " + wfID);
 	// Get Ironclad env and API key from application properties
 	var icEnv = gs.getProperty("legalAgreements.ironclad_environment");
 	var icKey = gs.getProperty("legalAgreements.ironclad_api_key");
@@ -36,17 +38,19 @@
 		agreementRec.get(agreementReqId);
 
 		// Update the Legal Agreement Request
-		gs.info("Ironclad setting agreement value to " + wfData.attributes.totalContractValue.amount);
-		agreementRec.setValue("agreement_value", wfData.attributes.totalContractValue.amount);
-		agreementRec.setValue("ironclad_workflow_stage", wfData.step);
 		agreementRec.setValue("ironclad_workflow_status", wfData.status);
+		agreementRec.setValue("ironclad_workflow_stage", wfData.step);
+		// Task state of 4 is "canceled"
+		agreementRec.setValue("state", 4);
+		// Workflow is cancelled, so negate the legal approval on the task
+		agreementRec.setValue("ironclad_legal_approved", false);
 		agreementRec.update("Ironclad update");
 	}
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_749125_legal_i_0/ironclad_webhook/attribute_change</operation_uri>
+        <operation_uri>/api/x_749125_legal_i_0/ironclad_webhook/workflow_cancelled</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
-        <relative_path>/attribute_change</relative_path>
+        <relative_path>/workflow_cancelled</relative_path>
         <request_example/>
         <requires_acl_authorization>true</requires_acl_authorization>
         <requires_authentication>false</requires_authentication>
@@ -54,13 +58,13 @@
         <short_description/>
         <sys_class_name>sys_ws_operation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-19 22:01:02</sys_created_on>
-        <sys_id>87fecda797955110940a7b771153affc</sys_id>
-        <sys_name>Workflow Attribute Change</sys_name>
+        <sys_created_on>2022-11-07 21:18:04</sys_created_on>
+        <sys_id>f72585152fc31110443b5fd92799b602</sys_id>
+        <sys_name>Workflow Cancelled</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
-        <sys_update_name>sys_ws_operation_87fecda797955110940a7b771153affc</sys_update_name>
+        <sys_update_name>sys_ws_operation_f72585152fc31110443b5fd92799b602</sys_update_name>
         <web_service_definition display_value="Ironclad Webhooks">019e49a797955110940a7b771153aff9</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

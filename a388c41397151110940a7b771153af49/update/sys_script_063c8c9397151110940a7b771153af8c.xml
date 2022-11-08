@@ -11,7 +11,7 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_749125_legal_i_0_legal_agreement_request</collection>
+        <collection>x_749125_legal_i_0_legal_agreement_task</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
@@ -93,16 +93,18 @@
 		gs.info("Checking Ironclad response...");
 		gs.info("Ironclad response status: " + response.getStatusCode());
 		gs.info("Ironclad error message: " + response.getErrorMessage());
-		var headers = response.getAllHeaders();
-		gs.info("Ironclad response headers:");
-		for(var i in headers){
-			gs.info("\tIronclad header \"" + headers[i].name + "\": " + headers[i].value);
-		}
+		gs.info("Ironclad response body: " + response.getBody());
+// 		var headers = response.getAllHeaders();
+// 		gs.info("Ironclad response headers:");
+// 		for(var i in headers){
+// 			gs.info("\tIronclad header \"" + headers[i].name + "\": " + headers[i].value);
+// 		}
 		
 		// Update Legal Request with Ironclad workflow details
 		var wfData = JSON.parse(response.getBody());
 		current.setValue("ironclad_workflow_url", "https://" + icEnv + "/workflow/" + wfData.id);
-		current.setValue("ironclad_workflow_status", wfData.step);
+		current.setValue("ironclad_workflow_stage", wfData.step);
+		current.setValue("ironclad_workflow_status", wfData.status);
 		current.update("Ironclad launch details");
 	} 
 	catch (err) {

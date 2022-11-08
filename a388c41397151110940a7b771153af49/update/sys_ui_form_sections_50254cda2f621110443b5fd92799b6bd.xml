@@ -28,6 +28,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-10-16 22:39:56</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-08 16:51:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edf195212f0b5110443b5fd92799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_749125_legal_i_0_legal_agreement_task" name="x_749125_legal_i_0_legal_agreement_task" sys_domain="global" view="Default view">50254cda2f621110443b5fd92799b6bd</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_749125_legal_i_0_legal_agreement_task" sys_domain="global" view="Default view">2df195212f0b5110443b5fd92799b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-08 16:51:34</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_749125_legal_i_0_legal_agreement_task</name>
             <roles/>

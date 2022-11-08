@@ -12,7 +12,57 @@
 	var icEnv = gs.getProperty("legalAgreements.ironclad_environment");
 	var icKey = gs.getProperty("legalAgreements.ironclad_api_key");
 	
-	gs.info("Ironclad approval update received for workflow " + request.body.data.payload.workflowID);
+	var wfID = request.body.data.payload.workflowID;
+	gs.info("Ironclad approval update received for workflow " + wfID);
+	var icMSATemplate = gs.getProperty("legalAgreements.ironclad_msa_template");
+	var icNDATemplate = gs.getProperty("legalAgreements.ironclad_nda_template");
+
+	// Approval events do not include template ID, so we need to get the 
+	// workflow before checking the type of workflow
+	
+	// Get the updated workflow details
+	var icMsg = new sn_ws.RESTMessageV2("Ironclad", "get workflow");
+	icMsg.setStringParameter("ironclad_env", icEnv);
+	icMsg.setStringParameter("ironclad_api_key", icKey);
+	gs.info("Ironclad getting workflow " + wfID);
+	icMsg.setStringParameter("workflow_id", wfID);
+	gs.info("Ironclad calling endpoint: " + icMsg.getEndpoint());
+	var wfResp = icMsg.execute();
+	var wfData = JSON.parse(wfResp.getBody());
+
+	// See if an MSA was updated - no attribute updates are needed from NDAs
+	if (wfData.template === icMSATemplate) {
+		// Get the target Legal Agreement Task
+		var agreementReqId = wfData.attributes.sNOWAgreementRecordId;
+		gs.info("Ironclad approval update for agreement " + agreementReqId);
+		var agreementRec = new GlideRecord("x_749125_legal_i_0_legal_agreement_task");
+		agreementRec.get(agreementReqId);
+
+		// Update the Legal Agreement Task
+		
+		// See if legal approval was received, and if so, update task field 
+		// so that appropriate SNOW workflows can be triggered
+		gs.info("Ironclad approval role = " + request.body.data.payload.approvalName);
+		gs.info("Ironclad approval status = " + request.body.data.payload.status);
+
+		if (request.body.data.payload.approvalName === "Legal") {
+			if (request.body.data.payload.status === "approved") {
+				gs.info("Ironclad setting agreement legal_approved to true");
+				agreementRec.setValue("ironclad_legal_approved", true);
+			}
+			else {
+				gs.info("Ironclad setting agreement legal_approved to false");
+				agreementRec.setValue("ironclad_legal_approved", false);
+			}
+		}
+
+		agreementRec.setValue("ironclad_workflow_stage", wfData.step);
+		agreementRec.setValue("ironclad_workflow_status", wfData.status);
+		agreementRec.update("Ironclad update");
+	}
+	else {
+		gs.info("Ironclad workflow of alternate type approved: " + request.body.data.payload.templateID);
+	}
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_749125_legal_i_0/ironclad_webhook/approval_change</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>

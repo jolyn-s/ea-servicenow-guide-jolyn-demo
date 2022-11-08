@@ -38,7 +38,7 @@
         <name>x_749125_legal_i_0_legal_agreement_task</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>

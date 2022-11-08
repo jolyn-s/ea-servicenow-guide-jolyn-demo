@@ -16,7 +16,7 @@
 	var icMSATemplate = gs.getProperty("legalAgreements.ironclad_msa_template");
 	var icNDATemplate = gs.getProperty("legalAgreements.ironclad_nda_template");
 		
-	var legalAgreementReqTable = "x_749125_legal_i_0_legal_agreement_request";
+	var legalAgreementReqTable = "x_749125_legal_i_0_legal_agreement_task";
 	
 	// See if a relevant workflow was completed
 	var wfTemplateID = request.body.data.payload.templateID;
@@ -43,7 +43,9 @@
 		var agreementRec = new GlideRecord(legalAgreementReqTable);
 		agreementRec.get(agreementReqId);
 		// Update workflow status on agreement request
-		agreementRec.setValue("ironclad_workflow_status", "Completed");
+		agreementRec.setValue("ironclad_workflow_stage", "Completed");
+		// Default value for "Completed" task state is 3.
+		agreementRec.setValue("state", 3);
 		agreementRec.update("Ironclad update on completion");
 
 		gs.info("Retrieving contract attachment from record");
