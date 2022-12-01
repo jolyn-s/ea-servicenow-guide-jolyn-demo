@@ -39,6 +39,12 @@
 		var icMSATemplate = gs.getProperty("legalAgreements.ironclad_msa_template");
 		var icNDATemplate = gs.getProperty("legalAgreements.ironclad_nda_template");
 		
+		// Get attribute names for the counterparty signer.  
+		// Signer attribute names are auto-generated with unique ID numbers 
+		// in each workflow
+		var icMSASignerNameAttr = gs.getProperty("legalAgreements.ironclad_msa_signer_name_attribute");
+		var icMSASignerEmailAttr = gs.getProperty("legalAgreements.ironclad_msa_signer_email_attribute");
+		
 		// Get email of workflow creator.  If accounts in ServiceNow are synced/aligned to 
 		// Ironclad account email addresses, you can use a user's profile as the creator (e.g., the 
 		// email of the user that created the agreement request, or a designated workflow owner per
@@ -61,8 +67,8 @@
 					currency: "USD",
 					amount: +current.agreement_value.toString()
 				},
-				signera203ff96725c46b3b9cc542a1a9775a3: current.counterparty_signer_name.toString(),
-				signer79b400b2cdb04a08afa1245b24c92734: current.counterparty_signer_email.toString(),
+// 				signera203ff96725c46b3b9cc542a1a9775a3: current.counterparty_signer_name.toString(),
+// 				signer79b400b2cdb04a08afa1245b24c92734: current.counterparty_signer_email.toString(),
 				sNOWAgreementRecordId: current.sys_id.toString(),
 				sNOWAgreementNumber: current.number.toString()
 			},
@@ -71,6 +77,10 @@
 				type: "email"
 			},
 		};
+
+		// Set the signer name and email using the configured attribute names
+		reqBody.attributes[icMSASignerNameAttr] = current.counterparty_signer_name.toString();
+		reqBody.attributes[icMSASignerEmailAttr] = current.counterparty_signer_email.toString();
 
 		// Set the workflow template id
 		switch (current.agreement_type.toString()) {

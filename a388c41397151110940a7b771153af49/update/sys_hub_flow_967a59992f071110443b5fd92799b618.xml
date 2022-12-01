@@ -10,13 +10,13 @@
         <copied_from_name/>
         <description/>
         <internal_name>ironclad_legal_approval</internal_name>
-        <label_cache>[{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__dont_treat_as_error__","label":"7 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__action_status__","label":"7 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__dont_treat_as_error__","label":"3 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__action_status__","label":"3 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__dont_treat_as_error__","label":"6 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__action_status__","label":"6 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__dont_treat_as_error__","label":"5 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__action_status__","label":"5 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__dont_treat_as_error__","label":"6 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__action_status__","label":"6 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Updated_1.current.ironclad_workflow_status","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow Status","reference":"","reference_display":"Ironclad Workflow Status","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_status"},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__action_status__","label":"2 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__dont_treat_as_error__","label":"2 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by.email","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.counterparty_name","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Counterparty Name","reference":"","reference_display":"Counterparty Name","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"counterparty_name"},{"name":"Updated_1.current.agreement_type","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Agreement Type","reference":"","reference_display":"Agreement Type","type":"choice","base_type":"choice","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"agreement_type","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"label":"Master Service Agreement","used":false,"image":"","rawLabel":"Master Service Agreement","selected":false,"missing":false,"reference":false,"value":"MSA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}},{"label":"Non-Disclosure Agreement","used":false,"image":"","rawLabel":"Non-Disclosure Agreement","selected":false,"missing":false,"reference":false,"value":"NDA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}}]},{"name":"Updated_1.current.ironclad_workflow_url","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow URL","reference":"","reference_display":"Ironclad Workflow URL","type":"url","base_type":"url","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_url"},{"name":"Updated_1.current.ironclad_legal_approved","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Legal Approved","reference":"","reference_display":"Ironclad Legal Approved","type":"boolean","base_type":"boolean","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_legal_approved"},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__action_status__","label":"4 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__dont_treat_as_error__","label":"4 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__action_status__","label":"2 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__dont_treat_as_error__","label":"2 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__dont_treat_as_error__","label":"7 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__action_status__","label":"7 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__dont_treat_as_error__","label":"3 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__action_status__","label":"3 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__dont_treat_as_error__","label":"6 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__action_status__","label":"6 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__dont_treat_as_error__","label":"5 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__action_status__","label":"5 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__dont_treat_as_error__","label":"6 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__action_status__","label":"6 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Updated_1.current.ironclad_workflow_status","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow Status","reference":"","reference_display":"Ironclad Workflow Status","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_status"},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__action_status__","label":"2 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__dont_treat_as_error__","label":"2 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by.email","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.counterparty_name","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Counterparty Name","reference":"","reference_display":"Counterparty Name","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"counterparty_name"},{"name":"Updated_1.current.agreement_type","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Agreement Type","reference":"","reference_display":"Agreement Type","type":"choice","base_type":"choice","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"agreement_type","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Master Service Agreement","used":false,"reference":false,"image":"","rawLabel":"Master Service Agreement","selected":false,"missing":false,"value":"MSA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}},{"label":"Non-Disclosure Agreement","used":false,"reference":false,"image":"","rawLabel":"Non-Disclosure Agreement","selected":false,"missing":false,"value":"NDA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}}]},{"name":"Updated_1.current.ironclad_workflow_url","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow URL","reference":"","reference_display":"Ironclad Workflow URL","type":"url","base_type":"url","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_url"},{"name":"Updated_1.current.ironclad_legal_approved","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Legal Approved","reference":"","reference_display":"Ironclad Legal Approved","type":"boolean","base_type":"boolean","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_legal_approved"},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__action_status__","label":"4 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__dont_treat_as_error__","label":"4 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__action_status__","label":"2 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__dont_treat_as_error__","label":"2 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>f2ecd55d2f071110443b5fd92799b6e0</master_snapshot>
-        <name>Ironclad approved / cancelled</name>
+        <name>Ironclad approval / cancel</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>c0b9fd692fcb5110443b5fd92799b6a8</remote_trigger_id>
+        <remote_trigger_id>37d9f25c2fe31110443b5fd92799b649</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>967a59992f071110443b5fd92799b618</sys_id>
-        <sys_name>Ironclad approved / cancelled</sys_name>
+        <sys_name>Ironclad approval / cancel</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
@@ -54,15 +54,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-08 19:45:08</sys_created_on>
+        <sys_created_on>2022-11-29 23:44:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c0b9fd692fcb5110443b5fd92799b6a8</sys_id>
+        <sys_id>37d9f25c2fe31110443b5fd92799b649</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:08</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:33</sys_updated_on>
         <table>x_749125_legal_i_0_legal_agreement_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -71,28 +71,28 @@
         <identifier>967a59992f071110443b5fd92799b618</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-08 19:45:08</sys_created_on>
-        <sys_id>4cb9fd692fcb5110443b5fd92799b6a8</sys_id>
+        <sys_created_on>2022-11-29 23:44:33</sys_created_on>
+        <sys_id>ffd9f25c2fe31110443b5fd92799b649</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:08</sys_updated_on>
-        <trigger display_value="">c0b9fd692fcb5110443b5fd92799b6a8</trigger>
+        <sys_updated_on>2022-11-29 23:44:33</sys_updated_on>
+        <trigger display_value="">37d9f25c2fe31110443b5fd92799b649</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=967a59992f071110443b5fd92799b618^sys_idNOT IN4cb9fd692fcb5110443b5fd92799b6a8"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=967a59992f071110443b5fd92799b618^sys_idNOT INffd9f25c2fe31110443b5fd92799b649"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=967a59992f071110443b5fd92799b618^sys_idNOT IN7b5c5d1d2f071110443b5fd92799b6d3"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</flow>
+        <flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 22:58:34</sys_created_on>
         <sys_id>7b5c5d1d2f071110443b5fd92799b6d3</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:09</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:34</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -197,7 +197,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</model>
+        <model display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</model>
         <model_id>967a59992f071110443b5fd92799b618</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_967a59992f071110443b5fd92799b618</name>
@@ -220,14 +220,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 22:58:34</sys_created_on>
         <sys_id>3b5c5d1d2f071110443b5fd92799b6cd</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:08</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -280,7 +280,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</model>
+        <model display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</model>
         <model_id>967a59992f071110443b5fd92799b618</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_967a59992f071110443b5fd92799b618</name>
@@ -303,14 +303,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 22:58:33</sys_created_on>
         <sys_id>af5c5d1d2f071110443b5fd92799b6c2</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:08</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -363,7 +363,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</model>
+        <model display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</model>
         <model_id>967a59992f071110443b5fd92799b618</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_967a59992f071110443b5fd92799b618</name>
@@ -415,17 +415,17 @@
         <action_type_parent/>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</flow>
+        <flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</flow>
         <order>3</order>
         <parent_ui_id>92bf07ef-fbe7-4df4-947e-a1fc035ada67</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 18:12:10</sys_created_on>
         <sys_id>02646d692f4b5110443b5fd92799b697</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:51:55</sys_updated_on>
+        <sys_updated_on>2022-12-01 23:45:19</sys_updated_on>
         <ui_id>79081a29-4cff-4f9c-91f0-a28103665776</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02646d692f4b5110443b5fd92799b697"/>
@@ -451,17 +451,17 @@
         <action_type_parent/>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</flow>
+        <flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</flow>
         <order>6</order>
         <parent_ui_id>0964d147-5ea6-490b-803a-9e47aa9e2832</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 18:12:11</sys_created_on>
         <sys_id>9a646d692f4b5110443b5fd92799b6af</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:51:55</sys_updated_on>
+        <sys_updated_on>2022-12-01 23:45:19</sys_updated_on>
         <ui_id>7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9a646d692f4b5110443b5fd92799b6af"/>
@@ -487,17 +487,17 @@
         <action_type_parent/>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</flow>
+        <flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</flow>
         <order>5</order>
         <parent_ui_id>0964d147-5ea6-490b-803a-9e47aa9e2832</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 17:25:55</sys_created_on>
         <sys_id>bcd995e92f0b5110443b5fd92799b60f</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:51:55</sys_updated_on>
+        <sys_updated_on>2022-12-01 23:45:19</sys_updated_on>
         <ui_id>0dbae06f-6643-4d6f-a959-6fae56a1e3b9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bcd995e92f0b5110443b5fd92799b60f"/>
@@ -536,17 +536,17 @@
         <action_type_parent/>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</flow>
+        <flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</flow>
         <order>2</order>
         <parent_ui_id>92bf07ef-fbe7-4df4-947e-a1fc035ada67</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 16:43:37</sys_created_on>
         <sys_id>c92091ad2fc75110443b5fd92799b6bc</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:51:55</sys_updated_on>
+        <sys_updated_on>2022-12-01 23:45:19</sys_updated_on>
         <ui_id>e9eed678-b5d2-4743-947f-b423e0bb1da1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c92091ad2fc75110443b5fd92799b6bc"/>
@@ -603,7 +603,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</flow>
+        <flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -617,10 +617,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 17:25:55</sys_created_on>
         <sys_id>b8d995e92f0b5110443b5fd92799b606</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:10</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:34</sys_updated_on>
         <ui_id>0964d147-5ea6-490b-803a-9e47aa9e2832</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -675,7 +675,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</flow>
+        <flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -689,10 +689,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 22:58:34</sys_created_on>
         <sys_id>f75c5d1d2f071110443b5fd92799b6d7</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:09</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:34</sys_updated_on>
         <ui_id>92bf07ef-fbe7-4df4-947e-a1fc035ada67</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -840,7 +840,7 @@
         <sys_created_on>2022-11-07 22:58:34</sys_created_on>
         <sys_id>7b5c5d1d2f071110443b5fd92799b6cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
@@ -863,7 +863,7 @@
         <sys_created_on>2022-11-07 22:58:34</sys_created_on>
         <sys_id>7f5c5d1d2f071110443b5fd92799b6cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
@@ -886,7 +886,7 @@
         <sys_created_on>2022-11-07 22:58:34</sys_created_on>
         <sys_id>bb5c5d1d2f071110443b5fd92799b6c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
@@ -904,18 +904,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7bec195d2f071110443b5fd92799b6e6","name":"plan","plan_signature":null}}</plan>
         <plan_id>967a59992f071110443b5fd92799b618</plan_id>
-        <snapshot>cb3b352d2fcb5110443b5fd92799b69c</snapshot>
+        <snapshot>1e3dc9892f271110443b5fd92799b679</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 23:01:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7bec195d2f071110443b5fd92799b6e6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:08</sys_updated_on>
-        <trigger display_value="">c0b9fd692fcb5110443b5fd92799b6a8</trigger>
+        <sys_updated_on>2022-11-29 23:44:33</sys_updated_on>
+        <trigger display_value="">37d9f25c2fe31110443b5fd92799b649</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=967a59992f071110443b5fd92799b618"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -929,12 +929,12 @@
         <copied_from_name/>
         <description/>
         <internal_name>ironclad_legal_approval</internal_name>
-        <label_cache>[{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__dont_treat_as_error__","label":"7 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__action_status__","label":"7 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__dont_treat_as_error__","label":"3 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__action_status__","label":"3 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__dont_treat_as_error__","label":"6 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__action_status__","label":"6 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__dont_treat_as_error__","label":"5 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__action_status__","label":"5 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__dont_treat_as_error__","label":"6 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__action_status__","label":"6 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Updated_1.current.ironclad_workflow_status","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow Status","reference":"","reference_display":"Ironclad Workflow Status","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_status"},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__action_status__","label":"2 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__dont_treat_as_error__","label":"2 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by.email","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.counterparty_name","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Counterparty Name","reference":"","reference_display":"Counterparty Name","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"counterparty_name"},{"name":"Updated_1.current.agreement_type","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Agreement Type","reference":"","reference_display":"Agreement Type","type":"choice","base_type":"choice","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"agreement_type","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"label":"Master Service Agreement","used":false,"image":"","rawLabel":"Master Service Agreement","selected":false,"missing":false,"reference":false,"value":"MSA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}},{"label":"Non-Disclosure Agreement","used":false,"image":"","rawLabel":"Non-Disclosure Agreement","selected":false,"missing":false,"reference":false,"value":"NDA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}}]},{"name":"Updated_1.current.ironclad_workflow_url","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow URL","reference":"","reference_display":"Ironclad Workflow URL","type":"url","base_type":"url","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_url"},{"name":"Updated_1.current.ironclad_legal_approved","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Legal Approved","reference":"","reference_display":"Ironclad Legal Approved","type":"boolean","base_type":"boolean","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_legal_approved"},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__action_status__","label":"4 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__dont_treat_as_error__","label":"4 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__action_status__","label":"2 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__dont_treat_as_error__","label":"2 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__dont_treat_as_error__","label":"7 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2eca6a40-4364-4a84-b5a8-f0492afbfb1e.__action_status__","label":"7 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__dont_treat_as_error__","label":"3 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"79081a29-4cff-4f9c-91f0-a28103665776.__action_status__","label":"3 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__dont_treat_as_error__","label":"6 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2.__action_status__","label":"6 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__dont_treat_as_error__","label":"5 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0dbae06f-6643-4d6f-a959-6fae56a1e3b9.__action_status__","label":"5 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__dont_treat_as_error__","label":"6 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"9686651a-d065-4858-9b0e-f6af5475d406.__action_status__","label":"6 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Updated_1.current.ironclad_workflow_status","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow Status","reference":"","reference_display":"Ironclad Workflow Status","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_status"},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__action_status__","label":"2 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"be08ff9c-781b-4cce-936b-e0ac4ac79525.__dont_treat_as_error__","label":"2 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1034e7cf-e643-461f-8314-9fbfef29f021.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by.email","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Updated_1.current.counterparty_name","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Counterparty Name","reference":"","reference_display":"Counterparty Name","type":"string","base_type":"string","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"counterparty_name"},{"name":"Updated_1.current.agreement_type","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Agreement Type","reference":"","reference_display":"Agreement Type","type":"choice","base_type":"choice","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"agreement_type","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Master Service Agreement","used":false,"reference":false,"image":"","rawLabel":"Master Service Agreement","selected":false,"missing":false,"value":"MSA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}},{"label":"Non-Disclosure Agreement","used":false,"reference":false,"image":"","rawLabel":"Non-Disclosure Agreement","selected":false,"missing":false,"value":"NDA","parameters":{"name":"x_749125_legal_i_0_legal_agreement_task"}}]},{"name":"Updated_1.current.ironclad_workflow_url","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Workflow URL","reference":"","reference_display":"Ironclad Workflow URL","type":"url","base_type":"url","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_workflow_url"},{"name":"Updated_1.current.ironclad_legal_approved","label":"Trigger - Record Updated➛Legal Agreement Task Record➛Ironclad Legal Approved","reference":"","reference_display":"Ironclad Legal Approved","type":"boolean","base_type":"boolean","parent_table_name":"x_749125_legal_i_0_legal_agreement_task","column_name":"ironclad_legal_approved"},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.email","label":"4 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__action_status__","label":"4 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7ef68d36-d60a-4dcd-a4f8-473c894768a2.__dont_treat_as_error__","label":"4 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__action_status__","label":"4 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a16ba914-6cdf-41e1-b80b-6f3b21da325f.__dont_treat_as_error__","label":"4 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__action_status__","label":"2 - Send Message to Task Conversation➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e9eed678-b5d2-4743-947f-b423e0bb1da1.__dont_treat_as_error__","label":"2 - Send Message to Task Conversation➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
-        <name>Ironclad approved / cancelled</name>
+        <name>Ironclad approval / cancel</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Ironclad approved / cancelled">967a59992f071110443b5fd92799b618</parent_flow>
+        <parent_flow display_value="Ironclad approval / cancel">967a59992f071110443b5fd92799b618</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -946,7 +946,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f2ecd55d2f071110443b5fd92799b6e0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -954,7 +954,7 @@
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:06</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:31</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=f2ecd55d2f071110443b5fd92799b6e0"/>
@@ -963,16 +963,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</flow>
+        <flow display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</flow>
         <name>Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 23:01:00</sys_created_on>
         <sys_id>17ec195d2f071110443b5fd92799b681</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:08</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:33</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1077,7 +1077,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</model>
+        <model display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</model>
         <model_id>f2ecd55d2f071110443b5fd92799b6e0</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_f2ecd55d2f071110443b5fd92799b6e0</name>
@@ -1160,7 +1160,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</model>
+        <model display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</model>
         <model_id>f2ecd55d2f071110443b5fd92799b6e0</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_f2ecd55d2f071110443b5fd92799b6e0</name>
@@ -1183,14 +1183,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 23:00:58</sys_created_on>
         <sys_id>4fecd55d2f071110443b5fd92799b6e2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:05</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1243,7 +1243,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</model>
+        <model display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</model>
         <model_id>f2ecd55d2f071110443b5fd92799b6e0</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_f2ecd55d2f071110443b5fd92799b6e0</name>
@@ -1266,14 +1266,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 23:00:58</sys_created_on>
         <sys_id>8fec195d2f071110443b5fd92799b64d</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:04</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1295,17 +1295,17 @@
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</flow>
+        <flow display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</flow>
         <order>6</order>
         <parent_ui_id>0964d147-5ea6-490b-803a-9e47aa9e2832</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 18:12:29</sys_created_on>
         <sys_id>327421a92f4b5110443b5fd92799b67c</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:05</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:31</sys_updated_on>
         <ui_id>7f35ca65-ef8d-42e4-a2d8-cdaa70050ce2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=327421a92f4b5110443b5fd92799b67c"/>
@@ -1331,17 +1331,17 @@
         <action_type_parent display_value="Send Message to Task Conversation">b02db0f29f200300af7196fcc67fcfe3</action_type_parent>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</flow>
+        <flow display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</flow>
         <order>5</order>
         <parent_ui_id>0964d147-5ea6-490b-803a-9e47aa9e2832</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 17:26:14</sys_created_on>
         <sys_id>95e919e92f0b5110443b5fd92799b6d6</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:05</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:31</sys_updated_on>
         <ui_id>0dbae06f-6643-4d6f-a959-6fae56a1e3b9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=95e919e92f0b5110443b5fd92799b6d6"/>
@@ -1380,17 +1380,17 @@
         <action_type_parent display_value="Send Message to Task Conversation">b02db0f29f200300af7196fcc67fcfe3</action_type_parent>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</flow>
+        <flow display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</flow>
         <order>2</order>
         <parent_ui_id>92bf07ef-fbe7-4df4-947e-a1fc035ada67</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 16:53:25</sys_created_on>
         <sys_id>a86251612f0b5110443b5fd92799b691</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:05</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:31</sys_updated_on>
         <ui_id>e9eed678-b5d2-4743-947f-b423e0bb1da1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a86251612f0b5110443b5fd92799b691"/>
@@ -1443,17 +1443,17 @@
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
         <comment/>
         <display_text/>
-        <flow display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</flow>
+        <flow display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</flow>
         <order>3</order>
         <parent_ui_id>92bf07ef-fbe7-4df4-947e-a1fc035ada67</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 18:12:29</sys_created_on>
         <sys_id>f27421a92f4b5110443b5fd92799b676</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:05</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:31</sys_updated_on>
         <ui_id>79081a29-4cff-4f9c-91f0-a28103665776</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f27421a92f4b5110443b5fd92799b676"/>
@@ -1483,7 +1483,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</flow>
+        <flow display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1497,10 +1497,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-07 23:00:59</sys_created_on>
         <sys_id>83ec195d2f071110443b5fd92799b666</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:05</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:31</sys_updated_on>
         <ui_id>92bf07ef-fbe7-4df4-947e-a1fc035ada67</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1555,7 +1555,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Ironclad approved / cancelled">f2ecd55d2f071110443b5fd92799b6e0</flow>
+        <flow display_value="Ironclad approval / cancel">f2ecd55d2f071110443b5fd92799b6e0</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1569,10 +1569,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 17:26:14</sys_created_on>
         <sys_id>d1e919e92f0b5110443b5fd92799b6df</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-08 19:45:05</sys_updated_on>
+        <sys_updated_on>2022-11-29 23:44:31</sys_updated_on>
         <ui_id>0964d147-5ea6-490b-803a-9e47aa9e2832</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1720,7 +1720,7 @@
         <sys_created_on>2022-11-07 23:00:59</sys_created_on>
         <sys_id>47ec195d2f071110443b5fd92799b652</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
@@ -1743,7 +1743,7 @@
         <sys_created_on>2022-11-07 23:00:58</sys_created_on>
         <sys_id>8fec195d2f071110443b5fd92799b63d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
@@ -1766,7 +1766,7 @@
         <sys_created_on>2022-11-07 23:00:58</sys_created_on>
         <sys_id>cbec195d2f071110443b5fd92799b635</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
