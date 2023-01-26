@@ -54,5 +54,5 @@ In your ServiceNow instance, open the Legal Intake application in Studio and nav
 - ```ironclad_msa_signer_name_attribute```: Set this to the attribute ID for the countrparty signer name atttibure in your MSA workflow.  Signer attribute IDs are unique for each workflow.
 - ```ironclad_workflow_creator```: Set this to the email address of the Ironclad user you would like to use as the creator of all workflows launched from ServiceNow.
 - ```ironclad_nda_template```: Set this to the template ID for the NDA workflow in your Ironclad environment.
-## Configure Ironclad Webhooks
-Once the application is loaded, you need to retrieve the endpoints of the Scripted REST resources defined in the app and register them to receive webhooks from your Ironclad instance.  In Studio, navigate to the Inbound Integrations -> Scripted REST Resources, and for each item in this list, select it and capture the "Resource path" in the details for the REST endpoint. The full endpoint URL will be the domain of your developer instance (see your browser address bar, typically this will be of the form "devXXXX.service-now.com").  
+# Ironclad Configuration
+The ServiceNow application depends on some configuration that needs to be made in your Ironclad instance.  Please refer to the corresponding [Ironclad Developer Hub solution guide](https://foobar.com) for details on the required Ironclad setup to enable the connectivity with this ServiceNow app.
