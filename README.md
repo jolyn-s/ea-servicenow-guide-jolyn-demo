@@ -52,9 +52,9 @@ In your ServiceNow instance, open the Legal Intake application in Studio and nav
 - ```ironclad_api_key```: This needs to contain the contents of an API key generated from your Ironclad instance.  
 - ```ironclad_environment```: Set this to the appropriate domain for your Ironclad environment ("ironcladapp.com" for production, "demo.ironcladapp.com" for demo, etc.)
 - ```ironclad_msa_template```: Set this to the template ID for the MSA workflow you will use in the integration.
-- ```ironclad_msa_signer_email_attribute```: Set this to the attribute ID for the countrparty signer email atttibure in your MSA workflow.  Signer attribute IDs are unique for each workflow.
-- ```ironclad_msa_signer_name_attribute```: Set this to the attribute ID for the countrparty signer name atttibure in your MSA workflow.  Signer attribute IDs are unique for each workflow.
+- ```ironclad_msa_signer_email_attribute```: Set this to the attribute ID for the counterparty signer email attribute in your MSA workflow.  Signer attribute IDs are unique for each workflow.
+- ```ironclad_msa_signer_name_attribute```: Set this to the attribute ID for the counterparty signer name attribute in your MSA workflow.  Signer attribute IDs are unique for each workflow.
 - ```ironclad_workflow_creator```: Set this to the email address of the Ironclad user you would like to use as the creator of all workflows launched from ServiceNow.
 - ```ironclad_nda_template```: Set this to the template ID for the NDA workflow in your Ironclad environment.
 # Ironclad Configuration
-The ServiceNow application depends on some configuration that needs to be made in your Ironclad instance.  Please refer to the corresponding [Ironclad Developer Hub solution guide](https://foobar.com) for details on the required Ironclad setup to enable the connectivity with this ServiceNow app.
+The ServiceNow application depends on some configuration that needs to be made in your Ironclad instance.  Please refer to the corresponding [Ironclad Developer Hub solution guide](https://developer.ironcladapp.com/docs/guide-servicenow) for details on the required Ironclad setup to enable the connectivity with this ServiceNow app.
