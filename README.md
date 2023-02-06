@@ -1,5 +1,7 @@
 # Ironclad EA ServiceNow Example Code
-This repository contains all of the ServiceNow application assets for the EA ServiceNow solution guide.
+This repository contains all of the ServiceNow application assets for the EA ServiceNow solution guide.  
+
+Usage of the code provided here is covered by the included [LICENSE](LICENSE)
 
 # Installing the ServiceNow application
 ## Create Github credential
