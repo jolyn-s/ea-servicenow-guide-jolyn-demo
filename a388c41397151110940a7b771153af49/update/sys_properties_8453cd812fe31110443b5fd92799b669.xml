@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description>Workflow attribute name for counterparty signer name in the MSA workflow</description>
+        <description>MSA workflow attribute ID for the counterparty signer name</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
         <name>legalAgreements.ironclad_msa_signer_name_attribute</name>

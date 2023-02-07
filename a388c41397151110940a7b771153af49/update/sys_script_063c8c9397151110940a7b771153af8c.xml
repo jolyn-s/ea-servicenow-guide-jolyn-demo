@@ -41,7 +41,8 @@
 		
 		// Get attribute names for the counterparty signer.  
 		// Signer attribute names are auto-generated with unique ID numbers 
-		// in each workflow
+		// in each workflow, so we define them as system properties to avoid
+		// hardcoding them here
 		var icMSASignerNameAttr = gs.getProperty("legalAgreements.ironclad_msa_signer_name_attribute");
 		var icMSASignerEmailAttr = gs.getProperty("legalAgreements.ironclad_msa_signer_email_attribute");
 		
@@ -67,8 +68,6 @@
 					currency: "USD",
 					amount: +current.agreement_value.toString()
 				},
-// 				signera203ff96725c46b3b9cc542a1a9775a3: current.counterparty_signer_name.toString(),
-// 				signer79b400b2cdb04a08afa1245b24c92734: current.counterparty_signer_email.toString(),
 				sNOWAgreementRecordId: current.sys_id.toString(),
 				sNOWAgreementNumber: current.number.toString()
 			},
@@ -100,15 +99,7 @@
 		
 		var response = request.execute();
 		
-		gs.info("Checking Ironclad response...");
 		gs.info("Ironclad response status: " + response.getStatusCode());
-		gs.info("Ironclad error message: " + response.getErrorMessage());
-		gs.info("Ironclad response body: " + response.getBody());
-// 		var headers = response.getAllHeaders();
-// 		gs.info("Ironclad response headers:");
-// 		for(var i in headers){
-// 			gs.info("\tIronclad header \"" + headers[i].name + "\": " + headers[i].value);
-// 		}
 		
 		// Update Legal Request with Ironclad workflow details
 		var wfData = JSON.parse(response.getBody());
