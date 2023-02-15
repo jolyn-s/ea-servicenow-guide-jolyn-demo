@@ -29,7 +29,7 @@ The general instructions for adding a new SSH key for your Github account can be
 - Add the SSH key to your account.
 
 ## Install the "Legal Intake" Application in ServiceNow
-Installing the Legal Intake app into ServiceNow involves creating a SNOW dev instance (if you don't already have one), creating a new SSH credential to connect to the GitHub repository, and importing the 
+Installing the Legal Intake app into ServiceNow involves creating a SNOW dev instance (if you don't already have one), creating a new SSH credential to connect to the GitHub repository, and importing the code from this Github repo into ServiceNow.
 ### Create a ServiceNow developer instance
 - Create an account/login to developer.servicenow.com
 - Create a new developer instance if you don’t have one already
