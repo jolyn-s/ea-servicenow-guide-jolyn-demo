@@ -57,4 +57,4 @@ In your ServiceNow instance, open the Legal Intake application in Studio and nav
 - ```ironclad_workflow_creator```: Set this to the email address of the Ironclad user you would like to use as the creator of all workflows launched from ServiceNow.
 - ```ironclad_nda_template```: Set this to the template ID for the NDA workflow in your Ironclad environment.
 # Ironclad Configuration
-The ServiceNow application depends on some configuration that needs to be made in your Ironclad instance.  Please refer to the corresponding [Ironclad Developer Hub solution guide](https://developer.ironcladapp.com/docs/serviceNow-guide) for details on the required Ironclad setup to enable the connectivity with this ServiceNow app.
+The ServiceNow application depends on some configuration that needs to be made in your Ironclad instance.  Please refer to the corresponding [Ironclad Developer Hub solution guide](https://developer.ironcladapp.com/docs/servicenow-guide) for details on the required Ironclad setup to enable the connectivity with this ServiceNow app.
