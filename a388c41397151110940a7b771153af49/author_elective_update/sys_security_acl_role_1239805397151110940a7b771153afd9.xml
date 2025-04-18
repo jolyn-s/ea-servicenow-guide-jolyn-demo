@@ -60,13 +60,14 @@
         <update_guid_history>03bc7ee580121110a310a852e7deb7a7:-1918814497</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_749125_legal_i_0_legal_agreement_request.x_749125_legal_i_0.admin">18d59d652f0b5110443b5fd92799b681</sys_audit_delete>
+        <sys_audit_delete display_value="">18d59d652f0b5110443b5fd92799b681</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 17:08:25</sys_created_on>
         <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
         <sys_id>25b69c679cb34a5c9199204c2cc3f184</sys_id>
         <sys_metadata>1239805397151110940a7b771153afd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_749125_legal_i_0_legal_agreement_request.x_749125_legal_i_0.admin</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_parent display_value="">9e39805397151110940a7b771153afd6</sys_parent>
@@ -75,5 +76,7 @@
         <sys_scope_delete display_value="">76957533a4164a94af24a6a3a42a2510</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_1239805397151110940a7b771153afd9</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_1239805397151110940a7b771153afd9">43bc7ee52f121110443b5fd92799b6a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:13:17</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

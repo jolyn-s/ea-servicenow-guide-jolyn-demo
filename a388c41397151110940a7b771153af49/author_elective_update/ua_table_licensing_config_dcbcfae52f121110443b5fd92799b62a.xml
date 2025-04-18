@@ -36,13 +36,13 @@
         <source>d8a316332f021110443b5fd92799b613</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-27 04:22:01</sys_created_on>
         <sys_id>d0ccbee52f121110443b5fd92799b672</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>1837d2e2a280000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:13:18</sys_updated_on>
         <type>Table Subscription Configuration</type>
         <update_guid>90ccbee56b1211100f39b76cbc93ab72</update_guid>
         <update_guid_history>90ccbee56b1211100f39b76cbc93ab72:-50534411</update_guid_history>
@@ -55,6 +55,7 @@
         <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
         <sys_id>0baa68088c20490c8c3f3923472a2b44</sys_id>
         <sys_metadata>dcbcfae52f121110443b5fd92799b62a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_749125_legal_i_0_legal_agreement_request</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_parent/>
@@ -63,5 +64,7 @@
         <sys_scope_delete display_value="">76957533a4164a94af24a6a3a42a2510</sys_scope_delete>
         <sys_update_name>ua_table_licensing_config_dcbcfae52f121110443b5fd92799b62a</sys_update_name>
         <sys_update_version display_value="ua_table_licensing_config_dcbcfae52f121110443b5fd92799b62a">d0ccbee52f121110443b5fd92799b672</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:13:18</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

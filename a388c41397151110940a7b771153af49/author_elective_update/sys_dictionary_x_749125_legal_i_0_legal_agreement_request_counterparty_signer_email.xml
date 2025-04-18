@@ -171,6 +171,7 @@
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
         <sys_id>5f398defd3d446698af504be8742f209</sys_id>
         <sys_metadata>10bcfae52f121110443b5fd92799b613</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Counterparty Signer Email</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_parent display_value="">84bcbae52f121110443b5fd92799b6f8</sys_parent>
@@ -179,5 +180,7 @@
         <sys_scope_delete display_value="">76957533a4164a94af24a6a3a42a2510</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_749125_legal_i_0_legal_agreement_request_counterparty_signer_email</sys_update_name>
         <sys_update_version display_value="sys_dictionary_x_749125_legal_i_0_legal_agreement_request_counterparty_signer_email">29bc3ee52f121110443b5fd92799b636</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:13:16</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

@@ -33,7 +33,7 @@
 	try {
 		// Get Ironclad env and API key from application properties
 		var icEnv = gs.getProperty("legalAgreements.ironclad_environment");
-		var icKey = gs.getProperty("legalAgreements.ironclad_api_key");
+		//var icKey = gs.getProperty("legalAgreements.ironclad_api_key");
 		
 		// Get template IDs - define other workflow types if needed and use their template IDs here.
 		var icMSATemplate = gs.getProperty("legalAgreements.ironclad_msa_template");
@@ -55,21 +55,22 @@
 		// Create the request
 		var request = new sn_ws.RESTMessageV2("Ironclad", "launch workflow");
 		request.setStringParameter("ironclad_env", icEnv);
-		request.setStringParameter("ironclad_api_key", icKey);
+		//request.setStringParameter("ironclad_api_key", icKey);
 		
 		var attributes;
 		var templateID;
 		// Create the base launch body using the details in the agreement request
 		var reqBody  = {
 			attributes: {
+				paperSource: "Our paper",
 				counterpartyName: current.counterparty_name.toString(),
 				agreementDate: current.agreement_date.toString(),
 				totalContractValue: {
 					currency: "USD",
 					amount: +current.agreement_value.toString()
 				},
-				sNOWAgreementRecordId: current.sys_id.toString(),
-				sNOWAgreementNumber: current.number.toString()
+				sNowAgreementRecordId: current.sys_id.toString(),
+				sNowAgreementNumber: current.number.toString()
 			},
 			creator: {
 				email: creatorEmail,
@@ -99,7 +100,7 @@
 		
 		var response = request.execute();
 		
-		gs.info("Ironclad response status: " + response.getStatusCode());
+		gs.info("Ironclad response status: " + response.getStatusCode() + " " + response.getBody());
 		
 		// Update Legal Request with Ironclad workflow details
 		var wfData = JSON.parse(response.getBody());
@@ -119,14 +120,28 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>063c8c9397151110940a7b771153af8c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Ironclad: Launch Agreement Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name>sys_script_063c8c9397151110940a7b771153af8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:43:38</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=063c8c9397151110940a7b771153af8c"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>063c8c9397151110940a7b771153af8c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-11 22:24:14</sys_created_on>
+        <sys_id>531548aa83302210c53d9780deaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:24:14</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

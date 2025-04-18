@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="DELETE">
+        <name>Authorization</name>
+        <rest_message display_value="Ironclad">436418db97151110940a7b771153af98</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-18 23:03:27</sys_created_on>
+        <sys_id>9f6498db97151110940a7b771153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization</sys_name>
+        <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
+        <sys_update_name>sys_rest_message_headers_9f6498db97151110940a7b771153af75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-18 23:03:27</sys_updated_on>
+        <value>Bearer ${ironclad_api_key}</value>
+    </sys_rest_message_headers>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Legal Intake Management">a388c41397151110940a7b771153af49</application>
+        <file_path/>
+        <instance_id>c4236bc91b02821077c7cb7b234bcba6</instance_id>
+        <instance_name>dev264481</instance_name>
+        <name>sys_rest_message_headers_9f6498db97151110940a7b771153af75</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>Authorization</name>
+        <rest_message display_value="Ironclad">436418db97151110940a7b771153af98</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-18 23:03:27</sys_created_on>
+        <sys_id>9f6498db97151110940a7b771153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization</sys_name>
+        <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
+        <sys_update_name>sys_rest_message_headers_9f6498db97151110940a7b771153af75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-18 23:03:27</sys_updated_on>
+        <value>Bearer ${ironclad_api_key}</value>
+    </sys_rest_message_headers>
+</record_update>]]></payload>
+        <payload_hash>516863520</payload_hash>
+        <record_name>Authorization</record_name>
+        <reverted_from/>
+        <source>8782c82a83302210c53d9780deaad31b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-11 22:13:14</sys_created_on>
+        <sys_id>0692006a83302210c53d9780deaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19626ea092c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:13:14</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>c292006a42302210a02ac3788e9a9e7f</update_guid>
+        <update_guid_history>c292006a42302210a02ac3788e9a9e7f:516863520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-11 22:45:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_headers">sys_rest_message_headers</sys_db_object>
+        <sys_id>278b29ed335c46e88bca20bec3005a40</sys_id>
+        <sys_metadata>9f6498db97151110940a7b771153af75</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization</sys_name>
+        <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
+        <sys_parent display_value="Ironclad">436418db97151110940a7b771153af98</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
+        <sys_scope_delete display_value="">76957533a4164a94af24a6a3a42a2510</sys_scope_delete>
+        <sys_update_name>sys_rest_message_headers_9f6498db97151110940a7b771153af75</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_headers_9f6498db97151110940a7b771153af75">0692006a83302210c53d9780deaad37f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:45:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

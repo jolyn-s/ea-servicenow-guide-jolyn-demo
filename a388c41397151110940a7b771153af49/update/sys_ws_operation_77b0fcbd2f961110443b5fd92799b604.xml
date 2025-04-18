@@ -37,7 +37,7 @@
 		var contentType = recData.attachments.signedCopy.contentType;	
 
 		// Get the target Legal Agreement Request
-		var recAgreementProp = "sNOWAgreementRecordId_f6eade0e-c9a4-4248-84de-50342857c99a_string";
+		var recAgreementProp = "sNowAgreementRecordId";
 		var agreementReqId = recData.properties[recAgreementProp].value;
 		gs.info("Ironclad workflow completed for agreement request " + agreementReqId);
 		var agreementRec = new GlideRecord(legalAgreementReqTable);
@@ -81,12 +81,26 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-03 02:18:56</sys_created_on>
         <sys_id>77b0fcbd2f961110443b5fd92799b604</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Workflow Completed</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name>sys_ws_operation_77b0fcbd2f961110443b5fd92799b604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:30:51</sys_updated_on>
         <web_service_definition display_value="Ironclad Webhooks">019e49a797955110940a7b771153aff9</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>77b0fcbd2f961110443b5fd92799b604</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-11 22:30:50</sys_created_on>
+        <sys_id>48a680ae83302210c53d9780deaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:30:50</sys_updated_on>
+        <table>sys_ws_operation</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

@@ -48,13 +48,13 @@
         <source>d8a316332f021110443b5fd92799b613</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-27 04:22:01</sys_created_on>
         <sys_id>a4bcfae52f121110443b5fd92799b65b</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>1837d2e2a280000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:13:16</sys_updated_on>
         <type>Table</type>
         <update_guid>64bcfae5b1121110917681756900ed5b</update_guid>
         <update_guid_history>64bcfae5b1121110917681756900ed5b:-1981645015</update_guid_history>
@@ -67,6 +67,7 @@
         <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
         <sys_id>be4af075537f4d408d845e1a1744de40</sys_id>
         <sys_metadata>84bcbae52f121110443b5fd92799b6f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Legal Agreement Request</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_parent/>
@@ -75,5 +76,7 @@
         <sys_scope_delete display_value="">76957533a4164a94af24a6a3a42a2510</sys_scope_delete>
         <sys_update_name>sys_db_object_84bcbae52f121110443b5fd92799b6f8</sys_update_name>
         <sys_update_version display_value="sys_db_object_84bcbae52f121110443b5fd92799b6f8">a4bcfae52f121110443b5fd92799b65b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 22:13:16</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

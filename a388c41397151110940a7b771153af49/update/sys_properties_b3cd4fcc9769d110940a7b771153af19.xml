@@ -11,16 +11,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-21 20:28:09</sys_created_on>
         <sys_id>b3cd4fcc9769d110940a7b771153af19</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>legalAgreements.ironclad_msa_template</sys_name>
         <sys_package display_value="Legal Intake Management" source="x_749125_legal_i_0">a388c41397151110940a7b771153af49</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Intake Management">a388c41397151110940a7b771153af49</sys_scope>
         <sys_update_name>sys_properties_b3cd4fcc9769d110940a7b771153af19</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-06 17:38:19</sys_updated_on>
+        <sys_updated_on>2025-04-11 22:16:51</sys_updated_on>
         <type>string</type>
-        <value>62ff0c6ca9098e82a1d3af95</value>
+        <value>67e5fbcfb9de80f2a4c387ed</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=b3cd4fcc9769d110940a7b771153af19"/>
